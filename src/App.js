@@ -2,6 +2,8 @@ import { useReducer } from "react"
 import DigitButton from "./DigitButton"
 import OperationButton from "./OperationButton"
 import "./styles.css"
+import Header from "./header"; // Import the Header component
+import Footer from "./footer"; // Import the Footer component
 
 export const ACTIONS = {
   ADD_DIGIT: "add-digit",
@@ -137,6 +139,8 @@ function App() {
   )
 
   return (
+    <div className="title">
+      <Header />
     <div className="calculator-grid">
       <div className="output">
         <div className="previous-operand">
@@ -174,6 +178,8 @@ function App() {
       >
         =
       </button>
+    </div>
+    <Footer />
     </div>
   )
 }
