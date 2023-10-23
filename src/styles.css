@@ -53,3 +53,20 @@
     color: white;
     font-size: 2.5rem;
   }
+
+  .app-header{
+    background-color: rgba(255, 255, 255, .85);
+    padding :5px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .app-footer{
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 8px;
+  }
